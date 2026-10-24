@@ -1,0 +1,91 @@
+/* Configuração geral da página */
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Área principal */
+.container {
+    max-width: 616px;
+    margin: 25px auto;
+    padding: 20px;
+}
+
+/* Título da loja */
+h1 {
+    color: #2e7d32;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.subtitulo {
+    color: #666666;
+    margin-top: 4px;
+}
+
+/* Linha divisória */
+hr {
+    border: 0;
+    border-top: 1px solid #2e7d32;
+    margin: 18px 0;
+}
+
+/* Títulos das seções */
+h2 {
+    color: #2e7d32;
+    font-size: 19px;
+    margin-top: 26px;
+}
+
+/* Tabela de produtos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 24px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e8f5e9;
+    color: #245b28;
+}
+
+/* Botão de simulação */
+button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 14px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1b5e20;
+}
+
+/* Rodapé */
+footer {
+    border-top: 1px solid #dddddd;
+    margin-top: 24px;
+    padding-top: 10px;
+    color: #777777;
+    font-size: 12px;
+}
+
+/* Adaptação para telas pequenas */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px auto;
+        padding: 16px;
+    }
+}
